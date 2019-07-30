@@ -1,21 +1,21 @@
 {
-  "name": "@miidx/rn-custom-component",
+  "name": "@miidx/rn-card",
   "version": "0.9.0",
-  "description": "This is template repo for creating custom component",
+  "description": "A plain React Native card component which its field can be customized by user.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/miidx/rn-component-template.git"
+    "url": "git+https://github.com/miidx/rn-card.git"
   },
-  "author": "firstyuyu",
+  "author": "Bella Tashia",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/miidx/rn-component-template/issues"
+    "url": "https://github.com/miidx/rn-card/issues"
   },
-  "homepage": "https://github.com/miidx/rn-component-template#readme",
+  "homepage": "https://github.com/miidx/rn-card#readme",
   "dependencies": {
     
   },
