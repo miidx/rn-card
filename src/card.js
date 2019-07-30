@@ -24,13 +24,13 @@ const Card = ({
 }) => {
   const cardContainer = borderColor
     ? [styles.container, {
+      backgroundColor: '#fff',
+      borderRadius,
+    }] : [styles.container, {
       backgroundColor,
       borderColor,
       borderRadius,
-      borderWidth: 1,
-    }] : [styles.container, {
-      backgroundColor: '#fff',
-      borderRadius,
+      borderWidth: 1,  
     }];
 
   const shadowedContainer = shadow
