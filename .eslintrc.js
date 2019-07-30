@@ -1,10 +1,9 @@
 module.exports = {
   env: {
+    browser: true,
     es6: true,
-    node: true,
   },
   extends: 'airbnb',
-  parser: 'babel-eslint',
   globals: {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly',
@@ -20,8 +19,5 @@ module.exports = {
     'react',
   ],
   rules: {
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-    "react/destructuring-assignment": [0, 'never'],
-    "import/no-extraneous-dependencies": ["error", {"devDependencies": true}]
   },
 };

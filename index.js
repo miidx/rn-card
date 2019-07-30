@@ -1,3 +1,3 @@
-import CustomComponent from './src/custom-component';
+import Card from './src/card';
 
-export default CustomComponent;
+export default Card;

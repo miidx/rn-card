@@ -1,24 +1,22 @@
 {
-  "name": "@miidx/rn-custom-component",
+  "name": "@miidx/rn-card",
   "version": "0.9.0",
-  "description": "This is template repo for creating custom component",
+  "description": "A plain React Native card component which its field can be customized by user.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/miidx/rn-component-template.git"
+    "url": "git+https://github.com/miidx/rn-card.git"
   },
-  "author": "firstyuyu",
+  "author": "Bella Tashia",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/miidx/rn-component-template/issues"
+    "url": "https://github.com/miidx/rn-card/issues"
   },
-  "homepage": "https://github.com/miidx/rn-component-template#readme",
-  "dependencies": {
-    
-  },
+  "homepage": "https://github.com/miidx/rn-card#readme",
+  "dependencies": {},
   "peerDependencies": {
     "react": "*",
     "react-native": "*",
@@ -26,12 +24,12 @@
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",
-    "babel-eslint": "^10.0.1",
+    "babel-eslint": "^10.0.2",
     "eslint": "^5.16.0",
-    "eslint-config-airbnb": "^17.1.0",
-    "eslint-plugin-import": "^2.17.3",
-    "eslint-plugin-jsx-a11y": "^6.2.1",
-    "eslint-plugin-react": "^7.13.0",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
     "metro-react-native-babel-preset": "^0.54.1"
   }
 }
